@@ -32,7 +32,7 @@ const CategoryWiseBook = () => {
         return <Spinner></Spinner>
     }
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 py-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 py-4 pt-28">
             <PageTitle title="Book Matrix || Category"></PageTitle>
 
             {books.map((book, index) => (
