@@ -110,7 +110,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="text-lg lg:text-4xl text-white">BookMatrix</a>
+                <a href="/" className="text-lg lg:text-4xl text-white">BookMatrix</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 {
