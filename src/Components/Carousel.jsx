@@ -5,7 +5,7 @@ const slides = [
         title: "Welcome to Our Library",
         description:
             "Explore a world of knowledge with our extensive collection of books, journals, and online resources.",
-        img: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Browse and Borrow Books",
@@ -57,8 +57,8 @@ const Carousel = () => {
                         <div key={index} className="w-full flex-shrink-0">
                             <div className="bg-gray-100 p-6">
                                 <img src={slide.img} alt={slide.title} className="w-full h-[60vh] rounded-lg" />
-                                <h2 className="text-2xl font-semibold mt-4">{slide.title}</h2>
-                                <p className="text-gray-700 my-2">{slide.description}</p>
+                                <h2 className="text-2xl font-semibold mt-4 text-black">{slide.title}</h2>
+                                <p className="text-black my-2">{slide.description}</p>
                             </div>
                         </div>
                     ))}
