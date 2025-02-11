@@ -70,7 +70,7 @@ const Borrowed = () => {
     }
 
     if (books.length === 0) {
-        return <div className="h-[70vh] pt-20 px-4">
+        return <div className="h-[80vh] pt-28 px-4">
 
             <p className="text-center text-5xl font-bold">Oops!You haven't borrowed any book yet</p>
 
@@ -78,7 +78,7 @@ const Borrowed = () => {
     }
 
     return (
-        <div className="h-[70vh] pt-20">
+        <div className="pt-20">
             <h1 className="text-center text-4xl">Your Borrowed Books</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 py-4 ">
                 <PageTitle title="Book Matrix || Borrowed Book"></PageTitle>
